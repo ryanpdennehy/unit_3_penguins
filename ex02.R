@@ -50,5 +50,5 @@ print(plot_penguin_bills)
 print(plot_penguin_bills_nfs)
 
 # Save the free scale plot
-ggsave(filename = "penguin_bill_scatter.png", plot = plot_penguin_bills, 
+ggsave(filename = "figures/penguin_bill_scatter.png", plot = plot_penguin_bills, 
        device = "png", width = 8, height = 4, units = "in", dpi = 300)
